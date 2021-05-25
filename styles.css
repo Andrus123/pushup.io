@@ -566,7 +566,7 @@ body{
     }
 }
 /*Perspectiva Horizontal*/
-/*
+/**/
 @media screen and (min-width: 650px){
     body{
         width: auto;
@@ -694,7 +694,7 @@ body{
         height: auto;
     }
 }
-*/
+
 @media screen and (max-width: 320px){
     body{
         width: auto;
