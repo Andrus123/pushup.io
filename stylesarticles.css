@@ -190,8 +190,8 @@ h4{
     }
     .cards-wrap {
         display: grid;
-        grid-template-columns: repeat(2,50%);
-        grid-template-rows: repeat(1,100%);
+        grid-template-columns: repeat(2,35%);
+        grid-template-rows: repeat(2,76%);
         grid-column: auto;
         height: 245px;
     }
