@@ -1,0 +1,366 @@
+@font-face {
+    font-family: 'Anton';
+    src: url(fonts/Anton-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    outline:0;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(29, 32, 31);
+    position: relative;
+}
+/*menu*/
+.overlay{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    background-color: cadetblue;
+    overflow-x: hidden;
+    transition: all 0.5s ease 0s;
+}
+
+.overlay-content{
+    display: grid;
+    grid-template-columns: 1.1fr;
+}
+.overlay a{
+    padding: 4px;
+    font-size: 130%;
+    display: block;
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+.overlay a:hover,.overlay a:focus{
+    color: white;
+    background-color: rgb(27, 34, 30);
+}
+.overlay > .close:hover{
+    background: none;
+}
+
+.overlay .close{
+    position: absolute;
+    right: 15px;
+    top: -10px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+.tierra #land{
+    width: auto;
+    height: 200px;
+    position: relative;
+    top: -82px;
+}
+.tierra{
+    height: 0;
+    z-index: -0.1;
+}
+
+#header > a > h1{
+    margin: 0px;
+    text-align: center;
+    align-self: center;
+    font-family:'Anton';
+    color: white;
+    transition: all 200ms;
+}
+#header > a > h1:hover{
+    cursor: pointer;
+    color: gold;
+}
+
+#menu{
+    width: 100%;
+    background-color:gold; 
+    position: relative;
+}
+.pestañas{
+    display:flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    z-index: 2;
+}
+.pestañas>a{
+    width: 20%;
+    border: 1px solid rgb(29, 27, 27);
+    font-family: 'Consolas';
+    font-size: 20px;
+    color: rgb(42, 46, 46);
+    padding: 10px;
+    align-self: center;
+    cursor: pointer;
+    transition: all 200ms;
+}
+.pestañas>a:hover{
+    background-color: rgb(27, 34, 30);
+    border: 1px solid rgb(29, 27, 27);
+    box-shadow: 0px 0px 0px 0.3px black;
+    color: ghostwhite;
+}
+.div{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(30, 31, 29);
+    display: flex;
+    position: relative;
+}
+.subdiv{
+    width: 25%;
+    height: 150px;
+    font-size: 12px;
+    transition: all 300ms ease;
+    justify-content: baseline;
+}
+.subdiv:hover{
+    cursor: pointer;
+    -webkit-box-shadow: -2px 0 2px 0 rgb(0 0 0 / 16%), 2px 0 2px 0 rgb(0 0 0 / 16%), 0 2px 2px 0 rgb(0 0 0 / 23%);
+    box-shadow: -2px 0 2px 0 rgb(0 0 0 / 16%), 2px 0 2px 0 rgb(0 0 0 / 16%), 0 2px 2px 0 rgb(0 0 0 / 23%);
+    -webkit-transform: translate3d(0, -3px, 0);
+    transform: translate3d(0, -3px, 0);
+}
+#div1{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'consolas';
+    background-image: url(img/Coibase-NASDAQ-IPO-from-Coinbase-blog-.jpeg);
+    background-size: cover;
+}
+#div2{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'consolas';
+    background-image: url(img/R0551321f6bfaf5e69f934fca00ed54f0.jpg);
+    background-size: cover;
+}
+#div3{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'consolas';
+    background-image: url(img/R0fb7d581709449f21b109e2b8f0e98c0.jpg);
+    background-size: cover;
+}
+#div4{
+    text-align: center;
+    font-family: 'consolas', Courier, monospace;
+    background-image: url(img/nft3.jpg);
+    background-size: cover;
+}
+#aside-left{
+    width: 15%;
+    background-color: azure;
+}
+#aside-left, div{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;   
+}
+.cards.cardsleft{
+    height: auto;
+    margin-bottom: 60px;
+}
+#section{
+    width: 100%;
+    height: 1320px;
+    display:flex;
+}
+
+.video{
+    justify-content: center;
+}
+.video > iframe{
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 0 0 4px 0 grey;
+    transition: all 80ms ease;
+}
+.video > iframe:hover{
+    -webkit-box-shadow: -2px 0 2px 0 rgb(0 0 0 / 16%), 2px 0 2px 0 rgb(0 0 0 / 16%), 0 2px 2px 0 rgb(0 0 0 / 23%);
+    box-shadow: -2px 0 2px 0 rgb(0 0 0 / 16%), 2px 0 2px 0 rgb(0 0 0 / 16%), 0 2px 2px 0 rgb(0 0 0 / 23%);
+    -webkit-transform: translate3d(0, -3px, 0);
+    transform: translate3d(0, -3px, 0);
+}
+#main_article{
+    width: 70%;
+    background-color: ghostwhite;
+    border: 0.1px solid rgb(153, 153, 153);
+}
+.articlecard{
+    width: 100%;
+    height: 400px;
+}
+.articlecard > img{
+    margin-top: 20px;
+    height: 350px;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 4px 0 grey;
+}
+
+.cards-wrap{
+    display: grid;
+    grid-template-columns: repeat(3,33.33%);
+    grid-template-rows: repeat(4,26%);
+    grid-column: auto;
+    height: 896px;
+}
+.cards{
+    height: 190px;
+    background-color: honeydew;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.cards > img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: inherit;
+    border: 0.5px solid grey;
+    transition: all 80ms ease;
+}
+.cards > .textcard{
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-family: monospace ;
+}
+.cards > img:hover{
+    -webkit-box-shadow: -2px 0 2px 0 rgb(0 0 0 / 16%), 2px 0 2px 0 rgb(0 0 0 / 16%), 0 2px 2px 0 rgb(0 0 0 / 23%);
+    box-shadow: -2px 0 2px 0 rgb(0 0 0 / 16%), 2px 0 2px 0 rgb(0 0 0 / 16%), 0 2px 2px 0 rgb(0 0 0 / 23%);
+    -webkit-transform: translate3d(0, -3px, 0);
+    transform: translate3d(0, -3px, 0);
+}
+
+#aside-right{
+    width: 15%;
+    background-color: azure;
+}
+
+#footer{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(29, 27, 27);
+}
+
+#footer > h1{
+    margin: 0px;
+    text-align: center;
+    align-self: center;
+    font-family:'Anton';
+    color: white;
+    transition: all 200ms;
+}
+#footer > h1:hover{
+    cursor: pointer;
+    color: gold;
+}
+#footer > .info{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content:space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0 50px;
+    padding-top: 10px;
+    margin-inline: 75px;
+}
+#footer > .info > li > a{
+    justify-content: space-around;
+    transition: all 200ms;
+}
+#footer .info > li > a:hover{
+    color: gold;
+}
+
+@media screen and (max-width: 375px){
+    body{
+        width: auto;
+        overflow-x: hidden;
+    }
+    .pestañas > a{
+        content-visibility: hidden;
+        border: none;
+    }
+    .div{
+        display: grid;
+        position: relative;
+        overflow-x: scroll;
+    }
+    .subdiv{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .video > iframe{
+        width: 240px;
+        height: 120px;
+        border-radius: 10px;
+    }
+    #section{
+        height: 3100px;
+    }
+    #aside-right{
+        width: 0;
+        display: none;
+    }
+    #main_article {
+        width: 69%;
+    }
+    
+    .cards-wrap{
+        display: grid;
+    grid-template-columns: repeat(1,90%);
+    grid-template-rows: repeat(0,27%);
+    grid-column: auto;
+    height: 896px;
+    width: 285px;
+    }
+    .articlecard {
+        width: 100%;
+        height: auto;
+    }
+    #aside-left {
+        width: 30%;
+    }
+    .cards.cardsleft {
+        width: 95px;
+        height: 65px;
+        margin-bottom: 90px;
+        margin-left: 9px;
+    }
+    #footer{
+        height: 231px;
+    }
+}
