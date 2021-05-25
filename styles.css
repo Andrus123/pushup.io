@@ -630,7 +630,7 @@ body{
 }
 /*Perspectiva Horizontal*/
 /**/
-@media screen and (max-width: 690px){
+@media (max-width: 30em) and (orientation: landscape){
     body{
         width: auto;
         overflow-x: hidden;
@@ -693,68 +693,3 @@ body{
         height: auto;
     }
 }
-@media screen and (max-width: 580px){
-    body{
-        width: auto;
-        overflow-x: hidden;
-    }
-    .pestañas > a{
-        content-visibility: hidden;
-        border: none;
-    }
-    .div{
-        display: grid;
-        position: relative;
-        overflow-x: scroll;
-    }
-    .subdiv{
-        width: 100%;
-        overflow-x: scroll;
-    }
-
-    .video > iframe{
-        width: 370px;
-        height: 190px;
-        border-radius: 30px;
-    }
-    #section{
-        height: 1418px;
-    }
-    #aside-right{
-        width: 0;
-        display: none;
-    }
-    #main_article {
-        width: 69%;
-    }
-    
-    .cards-wrap{
-        display: grid;
-        grid-template-columns: repeat(2,48%);
-        grid-template-rows: repeat(0,27%);
-        grid-column: auto;
-        height: 773px;
-        width: auto;
-    }
-    .cards {
-        width: 155px;
-        height: 145px;
-    }
-    .articlecard {
-        width: 100%;
-        height: auto;
-    }
-    #aside-left {
-        width: 30%;
-    }
-    .cards.cardsleft {
-        width: 122px;
-        height: 79px;
-        margin-bottom: 80px;
-        margin-left: 25px;
-    }
-    #footer{
-        height: auto;
-    }
-}
-

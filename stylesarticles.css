@@ -151,7 +151,7 @@ h4{
 }
 
 /*Perspectiva Horizontal*/
-@media (min-width: 30em) and (orientation: landscape){
+@media (max-width: 30em) and (orientation: landscape){
 
     .articlecard > img {
         margin-top: 20px;
