@@ -630,7 +630,7 @@ body{
 }
 /*Perspectiva Horizontal*/
 /**/
-@media (max-width: 30em) and (orientation: landscape){
+@media (max-width: 43em) and (orientation: landscape){
     body{
         width: auto;
         overflow-x: hidden;
