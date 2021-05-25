@@ -278,12 +278,12 @@ body{
     text-align: center;
     align-self: center;
     font-family:'Anton';
-    color: white;
+    color: gold;
     transition: all 200ms;
 }
 #footer > h1:hover{
     cursor: pointer;
-    color: gold;
+    color: crimson;
 }
 #footer > .info{
     display: flex;
