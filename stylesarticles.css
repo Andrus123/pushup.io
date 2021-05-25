@@ -150,7 +150,7 @@ h4{
     }
 }
 
-/*Perspectiva Horizontal*/
+/*Perspectiva Horizontal
 @media screen and (min-width: 550px){
 
     .articlecard > img {
@@ -200,4 +200,4 @@ h4{
     #section {
         height: 1600px;
     }
-}
+}*/
