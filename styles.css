@@ -2,7 +2,9 @@
     font-family: 'Anton';
     src: url(fonts/Anton-Regular.ttf);
 }
-*{
+*{  
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     outline:0;
@@ -306,7 +308,7 @@ body{
 
 @media screen and (max-width: 375px){
     body{
-        width: auto;
+        width: 100%;
         overflow-x: hidden;
     }
     .pestañas > a{
