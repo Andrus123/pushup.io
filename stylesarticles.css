@@ -146,3 +146,53 @@ h4{
         height: 2595px;
     }
 }
+
+/*Perspectiva Horizontal*/
+@media screen and (min-width: 550px){
+
+    .articlecard > img {
+        margin-top: 20px;
+        height: auto;
+        width: inherit;
+        border-radius: 20px;
+        box-shadow: 0 0 4px 0 grey;
+    }
+    .articlecard {
+        width: 100%;
+        height: auto;
+    }
+    .cards-wrap {
+        display: grid;
+        grid-template-columns: repeat(1,50%);
+        grid-template-rows: repeat(1,100%);
+        grid-column: auto;
+        height: 245px;
+    }
+    #section {
+        height: 2595px;
+    }
+}
+@media screen and (min-width: 650px){
+
+    .articlecard > img {
+        margin-top: 20px;
+        height: auto;
+        width: inherit;
+        border-radius: 20px;
+        box-shadow: 0 0 4px 0 grey;
+    }
+    .articlecard {
+        width: 100%;
+        height: auto;
+    }
+    .cards-wrap {
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        grid-template-rows: repeat(1,100%);
+        grid-column: auto;
+        height: 245px;
+    }
+    #section {
+        height: 2500px;
+    }
+}
