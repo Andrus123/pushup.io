@@ -98,7 +98,7 @@ h4{
         height: 2500px;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (width: 768px){
 
     .articlecard > img {
         margin-top: 20px;
@@ -113,12 +113,36 @@ h4{
     }
     .cards-wrap {
         display: grid;
-        grid-template-columns: repeat(1,90%);
+        grid-template-columns: repeat(2,50%);
         grid-template-rows: repeat(1,100%);
         grid-column: auto;
         height: 245px;
     }
     #section {
-        height: 2500px;
+        height: 1800px;
+    }
+}
+@media screen and (max-width: 320px){
+
+    .articlecard > img {
+        margin-top: 20px;
+        height: auto;
+        width: inherit;
+        border-radius: 20px;
+        box-shadow: 0 0 4px 0 grey;
+    }
+    .articlecard {
+        width: 100%;
+        height: auto;
+    }
+    .cards-wrap {
+        display: grid;
+        grid-template-columns: repeat(1,50%);
+        grid-template-rows: repeat(1,100%);
+        grid-column: auto;
+        height: 245px;
+    }
+    #section {
+        height: 2595px;
     }
 }

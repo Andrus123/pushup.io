@@ -304,6 +304,7 @@ body{
     color: gold;
 }
 
+
 @media screen and (max-width: 375px){
     body{
         width: auto;
@@ -367,6 +368,8 @@ body{
         height: auto;
     }
 }
+
+
 @media screen and (max-width: 411px){
     body{
         width: auto;
@@ -493,7 +496,7 @@ body{
         height: auto;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (width: 768px){
     body{
         width: auto;
         overflow-x: hidden;
@@ -513,7 +516,71 @@ body{
     }
 
     .video > iframe{
-        width: 240px;
+        width: 445px;
+        height: 190px;
+        border-radius: 30px;
+    }
+    #section{
+        height: 1630px;
+    }
+    #aside-right{
+        width: 0;
+        display: none;
+    }
+    #main_article {
+        width: 69%;
+    }
+    
+    .cards-wrap{
+        display: grid;
+        grid-template-columns: repeat(2,48%);
+        grid-template-rows: repeat(0,27%);
+        grid-column: auto;
+        height: 896px;
+        width: auto;
+    }
+    .cards {
+        width: 220px;
+    }
+    .articlecard {
+        width: 100%;
+        height: auto;
+    }
+    #aside-left {
+        width: 30%;
+    }
+    .cards.cardsleft {
+        width: 160px;
+        height: 90px;
+        margin-bottom: 62px;
+        margin-left: 35px;
+    }
+    #footer{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 320px){
+    body{
+        width: auto;
+        overflow-x: hidden;
+    }
+    .pestañas > a{
+        content-visibility: hidden;
+        border: none;
+    }
+    .div{
+        display: grid;
+        position: relative;
+        overflow-x: scroll;
+    }
+    .subdiv{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .video > iframe{
+        width: 210px;
         height: 120px;
         border-radius: 10px;
     }
@@ -533,11 +600,11 @@ body{
     grid-template-columns: repeat(1,90%);
     grid-template-rows: repeat(0,27%);
     grid-column: auto;
-    height: 896px;
+    height: 924px;
     width: auto;
     }
     .cards {
-        width: 220px;
+        width: 190px;
     }
     .articlecard {
         width: 100%;
@@ -547,9 +614,9 @@ body{
         width: 30%;
     }
     .cards.cardsleft {
-        width: 95px;
-        height: 65px;
-        margin-bottom: 90px;
+        width: 78px;
+        height: 60px;
+        margin-bottom: 100px;
         margin-left: 9px;
     }
     #footer{
