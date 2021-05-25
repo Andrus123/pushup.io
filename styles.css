@@ -149,27 +149,27 @@ body{
 #div1{
     text-align: center;
     color: aliceblue;
-    font-family: 'consolas';
+    font-family: 'Courier New', Courier, monospace;
     background-image: url(img/Coibase-NASDAQ-IPO-from-Coinbase-blog-.jpeg);
     background-size: cover;
 }
 #div2{
     text-align: center;
     color: aliceblue;
-    font-family: 'consolas';
+    font-family: 'Courier New', Courier, monospace;
     background-image: url(img/R0551321f6bfaf5e69f934fca00ed54f0.jpg);
     background-size: cover;
 }
 #div3{
     text-align: center;
     color: aliceblue;
-    font-family: 'consolas';
+    font-family: 'Courier New', Courier, monospace;
     background-image: url(img/R0fb7d581709449f21b109e2b8f0e98c0.jpg);
     background-size: cover;
 }
 #div4{
     text-align: center;
-    font-family: 'consolas';
+    font-family: 'Courier New', Courier, monospace;
     background-image: url(img/nft3.jpg);
     background-size: cover;
 }
@@ -305,6 +305,195 @@ body{
 }
 
 @media screen and (max-width: 375px){
+    body{
+        width: auto;
+        overflow-x: hidden;
+    }
+    .pestañas > a{
+        content-visibility: hidden;
+        border: none;
+    }
+    .div{
+        display: grid;
+        position: relative;
+        overflow-x: scroll;
+    }
+    .subdiv{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .video > iframe{
+        width: 240px;
+        height: 120px;
+        border-radius: 10px;
+    }
+    #section{
+        height: 3100px;
+    }
+    #aside-right{
+        width: 0;
+        display: none;
+    }
+    #main_article {
+        width: 69%;
+    }
+    
+    .cards-wrap{
+        display: grid;
+    grid-template-columns: repeat(1,90%);
+    grid-template-rows: repeat(0,27%);
+    grid-column: auto;
+    height: 896px;
+    width: auto;
+    }
+    .cards {
+        width: 220px;
+    }
+    .articlecard {
+        width: 100%;
+        height: auto;
+    }
+    #aside-left {
+        width: 30%;
+    }
+    .cards.cardsleft {
+        width: 95px;
+        height: 65px;
+        margin-bottom: 90px;
+        margin-left: 9px;
+    }
+    #footer{
+        height: auto;
+    }
+}
+@media screen and (max-width: 411px){
+    body{
+        width: auto;
+        overflow-x: hidden;
+    }
+    .pestañas > a{
+        content-visibility: hidden;
+        border: none;
+    }
+    .div{
+        display: grid;
+        position: relative;
+        overflow-x: scroll;
+    }
+    .subdiv{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .video > iframe{
+        width: 240px;
+        height: 120px;
+        border-radius: 10px;
+    }
+    #section{
+        height: 3100px;
+    }
+    #aside-right{
+        width: 0;
+        display: none;
+    }
+    #main_article {
+        width: 69%;
+    }
+    
+    .cards-wrap{
+        display: grid;
+    grid-template-columns: repeat(1,90%);
+    grid-template-rows: repeat(0,27%);
+    grid-column: auto;
+    height: 896px;
+    width: auto;
+    }
+    .cards {
+        width: 220px;
+    }
+    .articlecard {
+        width: 100%;
+        height: auto;
+    }
+    #aside-left {
+        width: 30%;
+    }
+    .cards.cardsleft {
+        width: 95px;
+        height: 65px;
+        margin-bottom: 90px;
+        margin-left: 9px;
+    }
+    #footer{
+        height: auto;
+    }
+}
+@media screen and (max-width: 414px){
+    body{
+        width: auto;
+        overflow-x: hidden;
+    }
+    .pestañas > a{
+        content-visibility: hidden;
+        border: none;
+    }
+    .div{
+        display: grid;
+        position: relative;
+        overflow-x: scroll;
+    }
+    .subdiv{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .video > iframe{
+        width: 240px;
+        height: 120px;
+        border-radius: 10px;
+    }
+    #section{
+        height: 3100px;
+    }
+    #aside-right{
+        width: 0;
+        display: none;
+    }
+    #main_article {
+        width: 69%;
+    }
+    
+    .cards-wrap{
+        display: grid;
+    grid-template-columns: repeat(1,90%);
+    grid-template-rows: repeat(0,27%);
+    grid-column: auto;
+    height: 896px;
+    width: auto;
+    }
+    .cards {
+        width: 220px;
+    }
+    .articlecard {
+        width: 100%;
+        height: auto;
+    }
+    #aside-left {
+        width: 30%;
+    }
+    .cards.cardsleft {
+        width: 95px;
+        height: 65px;
+        margin-bottom: 90px;
+        margin-left: 9px;
+    }
+    #footer{
+        height: auto;
+    }
+}
+@media screen and (max-width: 768px){
     body{
         width: auto;
         overflow-x: hidden;
