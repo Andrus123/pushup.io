@@ -166,7 +166,7 @@ h4{
     }
     .cards-wrap {
         display: grid;
-        grid-template-columns: repeat(2,35%);
+        grid-template-columns: repeat(2,45%);
         grid-template-rows: repeat(2,76%);
         grid-column: auto;
         height: 245px;
@@ -191,7 +191,7 @@ h4{
     }
     .cards-wrap {
         display: grid;
-        grid-template-columns: repeat(2,35%);
+        grid-template-columns: repeat(2,45%);
         grid-template-rows: repeat(2,76%);
         grid-column: auto;
         height: 245px;
