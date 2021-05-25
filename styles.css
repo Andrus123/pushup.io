@@ -8,6 +8,7 @@
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     outline:0;
+    overflow-x: hidden;
 }
 
 html{
