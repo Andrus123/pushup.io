@@ -566,7 +566,7 @@ body{
     }
 }
 /*Perspectiva Horizontal*/
-@media screen and (max-width: 650px){
+@media screen and (min-width: 650px){
     body{
         width: auto;
         overflow-x: hidden;
@@ -629,7 +629,7 @@ body{
         height: auto;
     }
 }
-@media screen and (max-width: 550px){
+@media screen and (min-width: 550px){
     body{
         width: auto;
         overflow-x: hidden;

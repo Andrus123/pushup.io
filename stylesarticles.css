@@ -151,7 +151,7 @@ h4{
 }
 
 /*Perspectiva Horizontal*/
-@media screen and (max-width: 550px){
+@media screen and (min-width: 550px){
 
     .articlecard > img {
         margin-top: 20px;
@@ -176,7 +176,7 @@ h4{
         height: 1700px;
     }
 }
-@media screen and (max-width: 650px){
+@media screen and (min-width: 650px){
 
     .articlecard > img {
         margin-top: 20px;
