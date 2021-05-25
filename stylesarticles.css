@@ -153,7 +153,7 @@ h4{
     .articlecard > img {
         margin-top: 20px;
         height: auto;
-        width: inherit;
+        width: 370px;
         border-radius: 20px;
         box-shadow: 0 0 4px 0 grey;
     }
@@ -163,13 +163,13 @@ h4{
     }
     .cards-wrap {
         display: grid;
-        grid-template-columns: repeat(1,50%);
+        grid-template-columns: repeat(2,50%);
         grid-template-rows: repeat(1,100%);
         grid-column: auto;
         height: 245px;
     }
     #section {
-        height: 2595px;
+        height: 1700px;
     }
 }
 @media screen and (min-width: 650px){
@@ -177,7 +177,7 @@ h4{
     .articlecard > img {
         margin-top: 20px;
         height: auto;
-        width: inherit;
+        width: 440px;
         border-radius: 20px;
         box-shadow: 0 0 4px 0 grey;
     }
@@ -187,12 +187,12 @@ h4{
     }
     .cards-wrap {
         display: grid;
-        grid-template-columns: repeat(1,90%);
+        grid-template-columns: repeat(2,50%);
         grid-template-rows: repeat(1,100%);
         grid-column: auto;
         height: 245px;
     }
     #section {
-        height: 2500px;
+        height: 1600px;
     }
 }
