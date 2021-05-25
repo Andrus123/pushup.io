@@ -170,7 +170,6 @@ h4{
         grid-template-rows: repeat(2,76%);
         grid-column: auto;
         height: 245px;
-        overflow: scroll;
     }
     #section {
         height: 1700px;
@@ -195,7 +194,6 @@ h4{
         grid-template-rows: repeat(2,76%);
         grid-column: auto;
         height: 245px;
-        overflow: scroll;
     }
     #section {
         height: 1600px;

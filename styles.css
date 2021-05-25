@@ -565,9 +565,72 @@ body{
         height: auto;
     }
 }
+@media screen and (max-width: 320px){
+    body{
+        width: auto;
+        overflow-x: hidden;
+    }
+    .pestañas > a{
+        content-visibility: hidden;
+        border: none;
+    }
+    .div{
+        display: grid;
+        position: relative;
+        overflow-x: scroll;
+    }
+    .subdiv{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .video > iframe{
+        width: 210px;
+        height: 120px;
+        border-radius: 10px;
+    }
+    #section{
+        height: 3100px;
+    }
+    #aside-right{
+        width: 0;
+        display: none;
+    }
+    #main_article {
+        width: 69%;
+    }
+    
+    .cards-wrap{
+        display: grid;
+    grid-template-columns: repeat(1,90%);
+    grid-template-rows: repeat(0,27%);
+    grid-column: auto;
+    height: 924px;
+    width: auto;
+    }
+    .cards {
+        width: 190px;
+    }
+    .articlecard {
+        width: 100%;
+        height: auto;
+    }
+    #aside-left {
+        width: 30%;
+    }
+    .cards.cardsleft {
+        width: 78px;
+        height: 60px;
+        margin-bottom: 100px;
+        margin-left: 9px;
+    }
+    #footer{
+        height: auto;
+    }
+}
 /*Perspectiva Horizontal*/
 /**/
-@media screen and (min-width: 650px){
+@media screen and (max-width: 690px){
     body{
         width: auto;
         overflow-x: hidden;
@@ -630,7 +693,7 @@ body{
         height: auto;
     }
 }
-@media screen and (min-width: 550px){
+@media screen and (max-width: 580px){
     body{
         width: auto;
         overflow-x: hidden;
@@ -695,66 +758,3 @@ body{
     }
 }
 
-@media screen and (max-width: 320px){
-    body{
-        width: auto;
-        overflow-x: hidden;
-    }
-    .pestañas > a{
-        content-visibility: hidden;
-        border: none;
-    }
-    .div{
-        display: grid;
-        position: relative;
-        overflow-x: scroll;
-    }
-    .subdiv{
-        width: 100%;
-        overflow-x: scroll;
-    }
-
-    .video > iframe{
-        width: 210px;
-        height: 120px;
-        border-radius: 10px;
-    }
-    #section{
-        height: 3100px;
-    }
-    #aside-right{
-        width: 0;
-        display: none;
-    }
-    #main_article {
-        width: 69%;
-    }
-    
-    .cards-wrap{
-        display: grid;
-    grid-template-columns: repeat(1,90%);
-    grid-template-rows: repeat(0,27%);
-    grid-column: auto;
-    height: 924px;
-    width: auto;
-    }
-    .cards {
-        width: 190px;
-    }
-    .articlecard {
-        width: 100%;
-        height: auto;
-    }
-    #aside-left {
-        width: 30%;
-    }
-    .cards.cardsleft {
-        width: 78px;
-        height: 60px;
-        margin-bottom: 100px;
-        margin-left: 9px;
-    }
-    #footer{
-        height: auto;
-    }
-}
