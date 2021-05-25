@@ -176,6 +176,11 @@ body{
 #aside-left{
     width: 15%;
     background-color: azure;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 #aside-left, div{
     font-family: 'Courier New', Courier, monospace;
