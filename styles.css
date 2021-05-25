@@ -364,6 +364,6 @@ body{
         margin-left: 9px;
     }
     #footer{
-        height: 231px;
+        height: auto;
     }
 }
