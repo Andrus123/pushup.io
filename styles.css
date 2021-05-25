@@ -23,7 +23,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-
+/*HEADER*/
 #header{
     width: 100%;
     height: 250px;
@@ -69,8 +69,8 @@ body{
     font-size: 40px;
     cursor: pointer;
 }
-
-
+/*MENU*/
+/*HEADER*/
 .tierra #land{
     width: auto;
     height: 200px;
@@ -94,7 +94,7 @@ body{
     cursor: pointer;
     color: gold;
 }
-
+/*MENU SECUNDARIO*/
 #menu{
     width: 100%;
     background-color:gold; 
@@ -119,6 +119,7 @@ body{
     cursor: pointer;
     transition: all 200ms;
 }
+/*MENU SECUNDARIO*/
 .pestañas>a:hover{
     background-color: rgb(27, 34, 30);
     border: 1px solid rgb(29, 27, 27);
@@ -308,8 +309,8 @@ body{
 #footer .info > li > a:hover{
     color: gold;
 }
-
-
+/*RESPONSIVE DESIGN*/
+/*Perspectiva Vertical*/
 @media screen and (max-width: 375px){
     body{
         width: auto;
@@ -564,7 +565,7 @@ body{
         height: auto;
     }
 }
-/*Perspectiva Vertical*/
+/*Perspectiva Horizontal*/
 @media screen and (min-width: 650px){
     body{
         width: auto;

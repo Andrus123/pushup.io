@@ -26,6 +26,9 @@ h4{
     font-weight: bold;
 }
 
+/*Responsive Design*/
+/*Perspectiva Vertical*/
+
 @media screen and (max-width: 375px){
 
     .articlecard > img {
